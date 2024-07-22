@@ -1,0 +1,296 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: "Poppins", sans-serif;
+background-color: lavender;
+font-style: normal;
+}
+.nightflight{
+    height: 90%;
+    width: 23%;
+    background-color: #ffffff;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 10px;
+}
+.namedatenightdiv{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(0, 135, 254);
+    border-radius: 10px 10px 0px 0px;
+    background: url(https://images.unsplash.com/photo-1472552944129-b035e9ea3744?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-date{
+    height: 25%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+}
+.image-div{
+    padding: 12px;
+}
+.date-nightflight{
+    height: 60px;
+    width: 120px;
+    margin: 5px;
+}
+#date {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 0px 0px 5px;
+}
+#night {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0px 0px 0px 38px;
+}
+.passenger-name-class{
+    height: 30%;
+    width: 55%;
+    margin: 10px 0px 0px 12px;
+    position: relative;
+}
+ .namepassenger{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.b{
+    height: 35px;
+    width: 35px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+}
+#busiclass{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    left: 31%;
+    top: 45%;
+}
+#boardingtime{
+    color: #4f67d1;
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    left: 31%;
+    top: 65%;
+}
+.airportfromto{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    position: absolute;
+    top: 28%;
+    border: none;
+    border-radius: 0px 65px 0px 65px ;
+}
+.timeing-flight{
+    height: 12%;
+    width: 100%;
+    display: flex;
+}
+.pm{
+    height: 100%;
+    width: 50%;
+}
+.am{
+    height: 100%;
+    width: 50%;
+}
+ #departuretime{
+    color: #ffffff;
+    padding: 8px 0px 0px 22px;
+    font-size: 15px;
+}
+#arrivaltime{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 0px 0px 55px;
+}
+.airport-from-to{
+    height: 10%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.air-one{
+    height: 100%;
+    width: 35%;
+    padding: 0px 0px 0px 25px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.air-two{
+    height: 100%;
+    width: 35%;
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.arriving-time-div{
+    height: 100%;
+    width: 35%;
+}
+.arriving-time{
+    height: 20px;
+    width: 45px;
+    background-color: #3d3c3c;
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 4px 0px 0px 10px;
+}
+.depart-arriv{
+    height: 7%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+}
+.depart{
+    height: 100%;
+    width: 50%;
+    color: #0857AF;
+    font-size: 12px;
+    padding: 2px 0px 0px 20px; 
+    font-weight: 700;
+}
+.arrive{
+    height: 100%;
+    width: 50%;
+    color: #FDB300;
+    font-size: 12px;
+    padding: 2px 0px 0px 60px; 
+    font-weight: 700;
+}
+.flight-seat-terminal{
+    height: 16%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.flight{
+    height: 100%;
+    width: 80px;
+    margin: 0px 0px 0px 18px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.seat{
+    height: 100%;
+    width: 80px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.terminal{
+    height: 100%;
+    width: 80px;
+    margin: 0px 1px 0px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.seclast-div{
+    height: 30%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.airoplne-img-div{
+    height: 95px;
+    width: 130px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+}
+.airoplne-img-div > img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.seating-range-speed{
+    height: 95px;
+    width: 130px;
+    display: inline;
+    gap: 10px;
+}
+.seating{
+    width: 100%;
+    height: 25%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.range{
+    width: 100%;
+    height: 25%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.speed{
+    width: 100%;
+    height: 25%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.baircode{
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 99%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.baircode > img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    padding: 5px ;
+
+}
+
+
+
+
